@@ -1,0 +1,2 @@
+Hostname: LOVENIKA-ASUS
+Platform: win32
