@@ -14,24 +14,24 @@ ArrayLib.addJob({
     }
 });
 
-console.log("Now using read job");
-cjob = ArrayLib.readJob("Frontend Developer");
-console.log(cjob);
+// console.log("Now using read job");
+// cjob = ArrayLib.readJob("Frontend Developer");
+// console.log(cjob);
 
-ArrayLib.updateJob("Frontend Developer", { 
-    "location": "New York",
-    "salary": "Highly Competitive"
-});
+// ArrayLib.updateJob("Frontend Developer", { 
+//     "location": "New York",
+//     "salary": "Highly Competitive"
+// });
 
-console.log("After updating job");
+// console.log("After updating job");
 
-ArrayLib.arr.forEach(job => {
-    console.log(job);
-});
+// ArrayLib.arr.forEach(job => {
+//     console.log(job);
+// });
 
+console.log("Before deleeting job" + ArrayLib.arr.length);
 ArrayLib.deleteJob("Frontend Developer");
-console.log("Before deleeting job");
 ArrayLib.arr.forEach(job => {
     console.log(job);
 });
-console.log("After deleting job");
+console.log("After deleting job "  + ArrayLib.arr.length);
